@@ -3,12 +3,10 @@ package chapter12;
 
 import javax.vecmath.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.awt.image.*;
 import java.net.URL;
 import java.io.*;
 import javax.imageio.*;
-import javax.swing.*;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;
 import com.sun.j3d.utils.geometry.*;

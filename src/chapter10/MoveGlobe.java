@@ -2,7 +2,6 @@ package chapter10;
 
 import javax.vecmath.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.net.URL;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;

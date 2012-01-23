@@ -7,7 +7,6 @@ import java.awt.event.*;
 import java.net.*;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;
-import com.sun.j3d.utils.geometry.*;
 import com.sun.j3d.utils.image.*;
 import chapter6.Dodecahedron;
 import java.applet.*;

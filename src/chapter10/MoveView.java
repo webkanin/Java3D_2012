@@ -2,13 +2,11 @@ package chapter10;
 
 import javax.vecmath.*;
 import java.awt.*;
-import java.awt.event.*;
 import java.net.URL;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;
 import com.sun.j3d.utils.geometry.*;
 import com.sun.j3d.utils.image.*;
-import com.sun.j3d.utils.behaviors.mouse.*;
 import com.sun.j3d.utils.behaviors.vp.*;
 import chapter7.Axes;
 import java.applet.*;

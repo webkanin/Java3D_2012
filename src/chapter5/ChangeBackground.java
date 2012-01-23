@@ -5,7 +5,7 @@ import java.awt.event.*;
 import javax.media.j3d.*;
 import javax.vecmath.*;
 import com.sun.j3d.utils.universe.*;
-import com.sun.j3d.utils.geometry.*;
+
 import java.awt.image.*;
 import java.io.*;
 import java.net.URL;

@@ -2,7 +2,6 @@ package chapter12;
 
 import java.net.URL;
 import java.awt.*;
-import java.awt.event.*;
 import java.awt.image.*;
 import com.sun.j3d.utils.universe.*;
 import javax.media.j3d.*;
@@ -10,7 +9,7 @@ import javax.vecmath.*;
 import java.io.*;
 import javax.imageio.*;
 import com.sun.j3d.utils.behaviors.mouse.*;
-import chapter10.GullCG;
+//import chapter10.GullCG;
 import java.applet.*;
 import com.sun.j3d.utils.applet.MainFrame;
 
@@ -48,8 +47,8 @@ public class Sound3D extends Applet {
     // visual object
     Appearance ap = new Appearance();
     ap.setMaterial(new Material());
-    Shape3D shape = new Shape3D(new GullCG(), ap);
-    objTrans.addChild(shape);
+    //Shape3D shape = new Shape3D(new GullCG(), ap);
+    //objTrans.addChild(shape);
     // behaviors
     BoundingSphere bounds =
     new BoundingSphere(new Point3d(0.0,0.0,0.0), 100.0);

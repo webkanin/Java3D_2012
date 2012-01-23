@@ -4,7 +4,6 @@ import java.awt.*;
 import java.awt.event.*;
 import java.awt.image.*;
 import javax.swing.*;
-import java.awt.font.*;
 import java.awt.geom.*;
 import java.io.*;
 import java.net.URL;

@@ -11,7 +11,6 @@ import javax.imageio.*;
 import javax.swing.*;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;
-import com.sun.j3d.utils.geometry.*;
 import chapter6.Dodecahedron;
 
 public class OffScreen extends Frame{

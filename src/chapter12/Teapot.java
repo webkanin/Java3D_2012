@@ -2,10 +2,9 @@ package chapter12;
 
 import javax.vecmath.*;
 import java.awt.*;
-import java.awt.event.*;
 import javax.media.j3d.*;
 import com.sun.j3d.utils.universe.*;
-import com.sun.j3d.utils.geometry.*;
+
 import java.applet.*;
 import com.sun.j3d.utils.applet.MainFrame;
 import java.net.URL;
