@@ -17,7 +17,7 @@ public class CustomPath extends JApplet {
     frame.pack();
     frame.setVisible(true);
   }
-  
+
   public void init() {
     JPanel panel = new PathPanel();
     getContentPane().add(panel);
@@ -57,9 +57,9 @@ class PathPanel extends JPanel {
     // tr.createTransformedShape returnerer en Shape og ikke GenerelPath, som den gamle koden ville ha
     // Dette ga iallfall meg og noen andre en exception.
     
-    // Det jeg har gjort er å lage en Shape i stedenfor som jeg kaller pathshape.
-    // For hver gang path endres settes pathshape på nytt. 
-    // Tilslutt har jeg bare endret i fra den gamle variabelen path til den nye pathshape på alle plasser den skal tegnes.
+    // Det jeg har gjort er ï¿½ lage en Shape i stedenfor som jeg kaller pathshape.
+    // For hver gang path endres settes pathshape pï¿½ nytt. 
+    // Tilslutt har jeg bare endret i fra den gamle variabelen path til den nye pathshape pï¿½ alle plasser den skal tegnes.
     Shape pathshape; // ekstra variabel
     pathshape = (Shape)tr.createTransformedShape(path); // endret
     g2.draw(pathshape); // endret
