@@ -1,3 +1,5 @@
+/**
+
 package chapter12;
 
 import javax.vecmath.*;
@@ -28,6 +30,7 @@ public class Teapot extends Applet {
     su.getViewingPlatform().setNominalViewingTransform();
     su.addBranchGraph(bg);
   }
+
 
   private BranchGroup createSceneGraph() {
     BranchGroup root = new BranchGroup();
@@ -111,3 +114,4 @@ public class Teapot extends Applet {
 }
 
 
+ */

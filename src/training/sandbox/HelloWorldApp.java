@@ -5,9 +5,17 @@ package training.sandbox;
  */
 class HelloWorldApp {
     public static void main(String[] args) {
-        System.out.println("Hello World!"); // Display the string.
-        System.out.print("What");
-        System.out.print("Need");
-        System.out.print("Why... hello from MSI webkanin");
+               what();
     }
+
+   static void what(){
+       try {
+           System.out.println("Hello World!"); // Display the string.
+           System.out.print("What");
+           System.out.print("Need");
+           System.out.print("Why... hello from MSI webkanin");
+       } catch (Exception e) {
+           e.getCause()     ;
+       }
+   }
 }
