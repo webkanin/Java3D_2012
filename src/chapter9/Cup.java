@@ -19,7 +19,7 @@ public class Cup extends Applet {
   public static void main(String[] args) {
     new MainFrame(new Cup(), 640, 480);
   }
-  
+  //test mot github
   public void init() {
     // create canvas
     GraphicsConfiguration gc = SimpleUniverse.getPreferredConfiguration();

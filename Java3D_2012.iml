@@ -7,9 +7,6 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <annotation-paths>
-      <root url="file://C:/Program Files/Java/Java3D/1.5.1/bin" />
-    </annotation-paths>
   </component>
 </module>
 
